@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+    
+    
+</head>
+<body>
+        <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 12px 16px;
+            transition: 0.3s;
+        }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        .chart-container {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        }
+    </style>
+    <div class="tab">
+            <button class="tablinks" onclick="showChart(event, '276f4d274ae24dc89f9855518a541ff7')">Support</button>
+            <button class="tablinks" onclick="showChart(event, 'cbce0402527343f6be92a696381f9dc0')">Jungle</button>
+            <button class="tablinks" onclick="showChart(event, '7a5965a03475424cb0b048beba12561a')">Middle</button>
+            <button class="tablinks" onclick="showChart(event, 'f40c76c3306641e0a6c964ae7e47117b')">Top</button>
+            <button class="tablinks" onclick="showChart(event, '0d1b48d40fc341c38fd8f1fc26c70465')">Bottom</button>
+    </div>
+
+    <div class="box">
+                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="276f4d274ae24dc89f9855518a541ff7" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Popular champions by position</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Rank</th>
+            <th>Hero</th>
+            <th>Pick Rate</th>
+            <th>Win Rate</th>
+            <th>Ban Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019</td>
+            <td>N0.1</td>
+            <td>THE WANDERING CARETAKER Bard</td>
+            <td>33.69%</td>
+            <td>54.19%</td>
+            <td>24.59%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.2</td>
+            <td>THE HEART OF THE FRELJORD Braum</td>
+            <td>25.66%</td>
+            <td>43.35%</td>
+            <td>6.22%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.3</td>
+            <td>THE MAGICAL CAT Yuumi</td>
+            <td>25.79%</td>
+            <td>50.0%</td>
+            <td>57.23%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>N0.1</td>
+            <td>THE TITAN OF THE DEPTHS Nautilus</td>
+            <td>44.52%</td>
+            <td>48.94%</td>
+            <td>17.48%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.2</td>
+            <td>THE CHAIN WARDEN Thresh</td>
+            <td>29.6%</td>
+            <td>51.14%</td>
+            <td>34.18%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.3</td>
+            <td>THE RADIANT DAWN Leona</td>
+            <td>26.72%</td>
+            <td>53.58%</td>
+            <td>11.43%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>N0.1</td>
+            <td>THE MINOTAUR Alistar</td>
+            <td>34.86%</td>
+            <td>55.76%</td>
+            <td>22.23%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.2</td>
+            <td>THE IRON MAIDEN Rell</td>
+            <td>30.24%</td>
+            <td>55.12%</td>
+            <td>19.57%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.3</td>
+            <td>THE RABBLE ROUSER Gragas</td>
+            <td>26.28%</td>
+            <td>58.69%</td>
+            <td>24.15%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="cbce0402527343f6be92a696381f9dc0" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Popular champions by position</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Rank</th>
+            <th>Hero</th>
+            <th>Pick Rate</th>
+            <th>Win Rate</th>
+            <th>Ban Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019</td>
+            <td>N0.1</td>
+            <td>THE EXEMPLAR OF DEMACIA JarvanIV</td>
+            <td>36.95%</td>
+            <td>53.14%</td>
+            <td>19.59%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.2</td>
+            <td>THE DARKIN BLADE Aatrox</td>
+            <td>31.95%</td>
+            <td>51.09%</td>
+            <td>49.19%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.3</td>
+            <td>THE RABBLE ROUSER Gragas</td>
+            <td>27.67%</td>
+            <td>56.82%</td>
+            <td>22.64%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>N0.1</td>
+            <td>THE BLIND MONK LeeSin</td>
+            <td>35.24%</td>
+            <td>50.6%</td>
+            <td>20.94%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.2</td>
+            <td>THE RELENTLESS STORM Volibear</td>
+            <td>33.97%</td>
+            <td>45.16%</td>
+            <td>23.29%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.3</td>
+            <td>THE TROLL KING Trundle</td>
+            <td>28.06%</td>
+            <td>52.98%</td>
+            <td>14.18%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>N0.1</td>
+            <td>THE SPIRIT WALKER Udyr</td>
+            <td>42.45%</td>
+            <td>43.15%</td>
+            <td>26.42%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.2</td>
+            <td>THE BASHFUL BLOOM Lillia</td>
+            <td>24.3%</td>
+            <td>50.83%</td>
+            <td>23.17%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.3</td>
+            <td>THE OUTLAW Graves</td>
+            <td>18.08%</td>
+            <td>29.69%</td>
+            <td>7.34%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="7a5965a03475424cb0b048beba12561a" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Popular champions by position</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Rank</th>
+            <th>Hero</th>
+            <th>Pick Rate</th>
+            <th>Win Rate</th>
+            <th>Ban Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019</td>
+            <td>N0.1</td>
+            <td>THE BUTCHER OF THE SANDS Renekton</td>
+            <td>23.27%</td>
+            <td>43.24%</td>
+            <td>22.64%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.2</td>
+            <td>THE CURIOUS CHAMELEON Neeko</td>
+            <td>22.01%</td>
+            <td>44.29%</td>
+            <td>34.28%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.3</td>
+            <td>THE ENLIGHTENED ONE Karma</td>
+            <td>19.81%</td>
+            <td>52.38%</td>
+            <td>49.37%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>N0.1</td>
+            <td>THE ASPECT OF TWILIGHT Zoe</td>
+            <td>24.72%</td>
+            <td>51.19%</td>
+            <td>38.41%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.2</td>
+            <td>THE DARK SOVEREIGN Syndra</td>
+            <td>23.53%</td>
+            <td>55.96%</td>
+            <td>36.34%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.3</td>
+            <td>THE EMPEROR OF THE SANDS Azir</td>
+            <td>20.66%</td>
+            <td>49.64%</td>
+            <td>18.0%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>N0.1</td>
+            <td>THE YORDLE GUNNER Tristana</td>
+            <td>31.64%</td>
+            <td>51.79%</td>
+            <td>21.19%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.2</td>
+            <td>THE LADY OF CLOCKWORK Orianna</td>
+            <td>22.05%</td>
+            <td>36.84%</td>
+            <td>19.51%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.3</td>
+            <td>THE EMPEROR OF THE SANDS Azir</td>
+            <td>14.54%</td>
+            <td>28.17%</td>
+            <td>13.15%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="f40c76c3306641e0a6c964ae7e47117b" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Popular champions by position</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Rank</th>
+            <th>Hero</th>
+            <th>Pick Rate</th>
+            <th>Win Rate</th>
+            <th>Ban Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019</td>
+            <td>N0.1</td>
+            <td>THE UNSHACKLED Sylas</td>
+            <td>42.14%</td>
+            <td>55.97%</td>
+            <td>45.91%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.2</td>
+            <td>THE DREADNOUGHT Urgot</td>
+            <td>35.6%</td>
+            <td>49.57%</td>
+            <td>13.93%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.3</td>
+            <td>THE RUNE MAGE Ryze</td>
+            <td>20.73%</td>
+            <td>41.0%</td>
+            <td>26.12%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>N0.1</td>
+            <td>THE BUTCHER OF THE SANDS Renekton</td>
+            <td>35.8%</td>
+            <td>53.45%</td>
+            <td>35.94%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.2</td>
+            <td>THE FIRE BELOW THE MOUNTAIN Ornn</td>
+            <td>34.11%</td>
+            <td>49.17%</td>
+            <td>31.99%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.3</td>
+            <td>THE BOSS Sett</td>
+            <td>28.96%</td>
+            <td>45.41%</td>
+            <td>39.27%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>N0.1</td>
+            <td>THE MISSING LINK Gnar</td>
+            <td>31.48%</td>
+            <td>48.28%</td>
+            <td>31.66%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.2</td>
+            <td>THE BUTCHER OF THE SANDS Renekton</td>
+            <td>28.66%</td>
+            <td>54.63%</td>
+            <td>61.54%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.3</td>
+            <td>THE DEFENDER OF TOMORROW Jayce</td>
+            <td>21.62%</td>
+            <td>51.6%</td>
+            <td>25.08%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="0d1b48d40fc341c38fd8f1fc26c70465" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Popular champions by position</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Rank</th>
+            <th>Hero</th>
+            <th>Pick Rate</th>
+            <th>Win Rate</th>
+            <th>Ban Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019</td>
+            <td>N0.1</td>
+            <td>DAUGHTER OF THE VOID Kaisa</td>
+            <td>44.29%</td>
+            <td>56.42%</td>
+            <td>11.52%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.2</td>
+            <td>THE PRODIGAL EXPLORER Ezreal</td>
+            <td>27.32%</td>
+            <td>40.5%</td>
+            <td>15.75%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>NO.3</td>
+            <td>THE BLADE DANCER Irelia</td>
+            <td>22.33%</td>
+            <td>43.66%</td>
+            <td>56.29%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>N0.1</td>
+            <td>THE WEAPON OF THE FAITHFUL Aphelios</td>
+            <td>40.63%</td>
+            <td>56.9%</td>
+            <td>48.61%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.2</td>
+            <td>THE BOUNTY HUNTER MissFortune</td>
+            <td>34.08%</td>
+            <td>41.27%</td>
+            <td>3.77%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>NO.3</td>
+            <td>THE ARROW OF RETRIBUTION Varus</td>
+            <td>29.08%</td>
+            <td>52.6%</td>
+            <td>39.15%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>N0.1</td>
+            <td>DAUGHTER OF THE VOID Kaisa</td>
+            <td>48.47%</td>
+            <td>51.52%</td>
+            <td>27.32%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.2</td>
+            <td>THE REBEL Xayah</td>
+            <td>25.14%</td>
+            <td>58.43%</td>
+            <td>9.89%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>NO.3</td>
+            <td>THE DESERT ROSE Samira</td>
+            <td>16.95%</td>
+            <td>38.33%</td>
+            <td>22.6%</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+    </div>
+
+    <script>
+    </script>
+    <script>
+        (function() {
+            containers = document.getElementsByClassName("chart-container");
+            if(containers.length > 0) {
+                containers[0].style.display = "block";
+            }
+        })()
+
+        function showChart(evt, chartID) {
+            let containers = document.getElementsByClassName("chart-container");
+            for (let i = 0; i < containers.length; i++) {
+                containers[i].style.display = "none";
+            }
+
+            let tablinks = document.getElementsByClassName("tablinks");
+            for (let i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = "tablinks";
+            }
+
+            document.getElementById(chartID).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>

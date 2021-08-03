@@ -1,0 +1,3840 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2019-2020 LPL team and individual performance display</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+	
+</head>
+<body background='test.gif'>
+	
+	<span id="cg">2016/12/21 12:00:00</span>
+    <style>.box {  }; </style>
+    <button onclick="window.location.href='tab.html'">Redirect to Players' Record</button>    
+	<button onclick="window.location.href='table2.html'">Redirect to Popular Champions</button>    
+	<h2 align="center">LPL Dashboard Network</h2>
+
+    <div class="box">
+                <div id="348956d7fb9341c1877543423847f91b" class="chart-container" style="position: absolute; width: 717px; height: 500px; top: 83px; left: 143px;"></div>
+    <script>
+	setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+        var chart_348956d7fb9341c1877543423847f91b = echarts.init(
+            document.getElementById('348956d7fb9341c1877543423847f91b'), 'white', {renderer: 'canvas'});
+        var option_348956d7fb9341c1877543423847f91b = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "bar",
+                "name": "Win Rate(%)",
+                "legendHoverLink": true,
+                "data": [
+                    9,
+                    19,
+                    25,
+                    27,
+                    34,
+                    35,
+                    35,
+                    41,
+                    51,
+                    56
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "itemStyle": {
+                    "normal": {
+                        "barBorderRadius": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    }
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "bar",
+                "name": "Victory(The Nmber of Match)",
+                "legendHoverLink": true,
+                "data": [
+                    4,
+                    7,
+                    3,
+                    13,
+                    16,
+                    17,
+                    17,
+                    20,
+                    27,
+                    32
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "itemStyle": {
+                    "normal": {
+                        "barBorderRadius": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    }
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "bar",
+                "name": "Defeat(The Nmber of Match)",
+                "legendHoverLink": true,
+                "data": [
+                    39,
+                    29,
+                    9,
+                    36,
+                    31,
+                    31,
+                    31,
+                    29,
+                    26,
+                    24
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "itemStyle": {
+                    "normal": {
+                        "barBorderRadius": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    }
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    "RW",
+                    "ES",
+                    "UP",
+                    "TT",
+                    "V5",
+                    "OMG",
+                    "LGD",
+                    "BLG",
+                    "LNG",
+                    "RA"
+                ]
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Win Rate(%)",
+                        "Victory(The Nmber of Match)",
+                        "Defeat(The Nmber of Match)"
+                    ],
+                    "selected": {
+                        "Win Rate(%)": true,
+                        "Victory(The Nmber of Match)": true,
+                        "Defeat(The Nmber of Match)": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Win Rate(%)",
+                    "legendHoverLink": true,
+                    "data": [
+                        28,
+                        30,
+                        30,
+                        36,
+                        36,
+                        38,
+                        42,
+                        47,
+                        50,
+                        53
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Victory(The Nmber of Match)",
+                    "legendHoverLink": true,
+                    "data": [
+                        19,
+                        23,
+                        21,
+                        25,
+                        27,
+                        14,
+                        15,
+                        35,
+                        46,
+                        40
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Defeat(The Nmber of Match)",
+                    "legendHoverLink": true,
+                    "data": [
+                        50,
+                        54,
+                        48,
+                        45,
+                        48,
+                        23,
+                        21,
+                        40,
+                        46,
+                        36
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "OMG",
+                        "VG",
+                        "RW",
+                        "V5",
+                        "LGD",
+                        "SS",
+                        "DMO",
+                        "SN",
+                        "JDG",
+                        "WE"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Win Rate(%)",
+                        "Victory(The Nmber of Match)",
+                        "Defeat(The Nmber of Match)"
+                    ],
+                    "selected": {
+                        "Win Rate(%)": true,
+                        "Victory(The Nmber of Match)": true,
+                        "Defeat(The Nmber of Match)": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Win Rate(%)",
+                    "legendHoverLink": true,
+                    "data": [
+                        28,
+                        36,
+                        38,
+                        38,
+                        41,
+                        46,
+                        46,
+                        48,
+                        48,
+                        51
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Victory(The Nmber of Match)",
+                    "legendHoverLink": true,
+                    "data": [
+                        20,
+                        28,
+                        31,
+                        29,
+                        32,
+                        37,
+                        37,
+                        44,
+                        40,
+                        49
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Defeat(The Nmber of Match)",
+                    "legendHoverLink": true,
+                    "data": [
+                        51,
+                        49,
+                        51,
+                        47,
+                        47,
+                        44,
+                        44,
+                        48,
+                        44,
+                        47
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "DMO",
+                        "LNG",
+                        "V5",
+                        "RW",
+                        "OMG",
+                        "BLG",
+                        "ES",
+                        "LGD",
+                        "VG",
+                        "WE"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Win Rate(%)",
+                        "Victory(The Nmber of Match)",
+                        "Defeat(The Nmber of Match)"
+                    ],
+                    "selected": {
+                        "Win Rate(%)": true,
+                        "Victory(The Nmber of Match)": true,
+                        "Defeat(The Nmber of Match)": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Win Rate(%)",
+                    "legendHoverLink": true,
+                    "data": [
+                        9,
+                        19,
+                        25,
+                        27,
+                        34,
+                        35,
+                        35,
+                        41,
+                        51,
+                        56
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Victory(The Nmber of Match)",
+                    "legendHoverLink": true,
+                    "data": [
+                        4,
+                        7,
+                        3,
+                        13,
+                        16,
+                        17,
+                        17,
+                        20,
+                        27,
+                        32
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Defeat(The Nmber of Match)",
+                    "legendHoverLink": true,
+                    "data": [
+                        39,
+                        29,
+                        9,
+                        36,
+                        31,
+                        31,
+                        31,
+                        29,
+                        26,
+                        24
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "RW",
+                        "ES",
+                        "UP",
+                        "TT",
+                        "V5",
+                        "OMG",
+                        "LGD",
+                        "BLG",
+                        "LNG",
+                        "RA"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_348956d7fb9341c1877543423847f91b.setOption(option_348956d7fb9341c1877543423847f91b);
+    </script>
+<br/>                <div id="fafebef0d420415c8c116f4cf34d02a3" class="chart-container" style="position: absolute; width: 321px; height: 294px; top: 1258px; left: 101px;"></div>
+    <script>
+        var chart_fafebef0d420415c8c116f4cf34d02a3 = echarts.init(
+            document.getElementById('fafebef0d420415c8c116f4cf34d02a3'), 'white', {renderer: 'canvas'});
+        var option_fafebef0d420415c8c116f4cf34d02a3 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Total Matches",
+                        "value": 56
+                    },
+                    {
+                        "name": "Number of Victory",
+                        "value": 32
+                    }
+                ],
+                "radius": [
+                    75,
+                    90
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "center",
+                    "margin": 8,
+                    "formatter":     function(params) {        if(params.name == 'Number of Victory')            return params.name + ' : ' + params.value;        return ''    }    
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Total Matches",
+                        "Number of Victory"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Total Matches",
+                            "value": 76
+                        },
+                        {
+                            "name": "Number of Victory",
+                            "value": 40
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Number of Victory')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   WE \n The Highest Win Rate"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Total Matches",
+                        "Number of Victory"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Total Matches",
+                            "value": 96
+                        },
+                        {
+                            "name": "Number of Victory",
+                            "value": 49
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Number of Victory')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   WE \n The Highest Win Rate"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Total Matches",
+                        "Number of Victory"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Total Matches",
+                            "value": 56
+                        },
+                        {
+                            "name": "Number of Victory",
+                            "value": 32
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Number of Victory')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   RA \n The Highest Win Rate"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "silver"
+            ]
+        }
+    ]
+};
+        chart_fafebef0d420415c8c116f4cf34d02a3.setOption(option_fafebef0d420415c8c116f4cf34d02a3);
+    </script>
+<br/>                <div id="7e123cbcf6664d9dac208aff24e98b1b" class="chart-container" style="position: absolute; width: 317px; height: 294px; top: 1252px; left: 759px;"></div>
+    <script>
+        var chart_7e123cbcf6664d9dac208aff24e98b1b = echarts.init(
+            document.getElementById('7e123cbcf6664d9dac208aff24e98b1b'), 'white', {renderer: 'canvas'});
+        var option_7e123cbcf6664d9dac208aff24e98b1b = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Kills",
+                        "value": 1025
+                    },
+                    {
+                        "name": "Total Death",
+                        "value": 847
+                    }
+                ],
+                "radius": [
+                    75,
+                    90
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "center",
+                    "margin": 8,
+                    "formatter":     function(params) {        if(params.name == 'Kills')            return params.name + ' : ' + params.value;        return ''    }    
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Kills",
+                        "Total Death"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Kills",
+                            "value": 1397
+                        },
+                        {
+                            "name": "Total Death",
+                            "value": 889
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Kills')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   FPX \n The Highest Kills"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "skyblue",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Kills",
+                        "Total Death"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Kills",
+                            "value": 1473
+                        },
+                        {
+                            "name": "Total Death",
+                            "value": 1169
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Kills')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   TES \n The Highest Kills"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "skyblue",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Kills",
+                        "Total Death"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Kills",
+                            "value": 1025
+                        },
+                        {
+                            "name": "Total Death",
+                            "value": 847
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Kills')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   FPX \n The Highest Kills"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "skyblue",
+                "silver"
+            ]
+        }
+    ]
+};
+        chart_7e123cbcf6664d9dac208aff24e98b1b.setOption(option_7e123cbcf6664d9dac208aff24e98b1b);
+    </script>
+<br/>                <div id="3bf260d70b064dbc96859eaf33a058ba" class="chart-container" style="position: absolute; width: 314px; height: 294px; top: 1251px; left: 433px;"></div>
+    <script>
+        var chart_3bf260d70b064dbc96859eaf33a058ba = echarts.init(
+            document.getElementById('3bf260d70b064dbc96859eaf33a058ba'), 'white', {renderer: 'canvas'});
+        var option_3bf260d70b064dbc96859eaf33a058ba = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Average amount",
+                        "value": 59278
+                    },
+                    {
+                        "name": "Total amount of top ten teams",
+                        "value": 572779
+                    }
+                ],
+                "radius": [
+                    75,
+                    90
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "center",
+                    "margin": 8,
+                    "formatter":     function(params) {        if(params.name == 'Average amount')            return params.name + ' : ' + params.value;        return ''    }    
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Average amount",
+                        "Total amount of top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Average amount",
+                            "value": 62999
+                        },
+                        {
+                            "name": "Total amount of top ten teams",
+                            "value": 603044
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Average amount')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   LNG \n The Highest of Average amount"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "darkturquoise",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Average amount",
+                        "Total amount of top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Average amount",
+                            "value": 59062
+                        },
+                        {
+                            "name": "Total amount of top ten teams",
+                            "value": 576203
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Average amount')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   JDG \n The Highest of Average amount"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "darkturquoise",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Average amount",
+                        "Total amount of top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Average amount",
+                            "value": 59278
+                        },
+                        {
+                            "name": "Total amount of top ten teams",
+                            "value": 572779
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Average amount')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   EDG \n The Highest of Average amount"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "darkturquoise",
+                "silver"
+            ]
+        }
+    ]
+};
+        chart_3bf260d70b064dbc96859eaf33a058ba.setOption(option_3bf260d70b064dbc96859eaf33a058ba);
+    </script>
+<br/>                <div id="8dde4f7f336049c28ea6ae5a2cc07dc0" class="chart-container" style="position: absolute; width: 311px; height: 294px; top: 1254px; left: 1431px;"></div>
+    <script>
+        var chart_8dde4f7f336049c28ea6ae5a2cc07dc0 = echarts.init(
+            document.getElementById('8dde4f7f336049c28ea6ae5a2cc07dc0'), 'white', {renderer: 'canvas'});
+        var option_8dde4f7f336049c28ea6ae5a2cc07dc0 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Dragons Per Match",
+                        "value": 2.92
+                    },
+                    {
+                        "name": "Sum of dragons per match of the top ten teams",
+                        "value": 24.42
+                    }
+                ],
+                "radius": [
+                    75,
+                    90
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "center",
+                    "margin": 8,
+                    "formatter":     function(params) {        if(params.name == 'Dragons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Dragons Per Match",
+                        "Sum of dragons per match of the top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Dragons Per Match",
+                            "value": 2.62
+                        },
+                        {
+                            "name": "Sum of dragons per match of the top ten teams",
+                            "value": 23.49
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Dragons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   FPX \n The Most Dragons Per Match"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "hotpink",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Dragons Per Match",
+                        "Sum of dragons per match of the top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Dragons Per Match",
+                            "value": 2.66
+                        },
+                        {
+                            "name": "Sum of dragons per match of the top ten teams",
+                            "value": 25.05
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Dragons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   ES \n The Most Dragons Per Match"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "hotpink",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Dragons Per Match",
+                        "Sum of dragons per match of the top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Dragons Per Match",
+                            "value": 2.92
+                        },
+                        {
+                            "name": "Sum of dragons per match of the top ten teams",
+                            "value": 24.42
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Dragons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   EDG \n The Most Dragons Per Match"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "hotpink",
+                "silver"
+            ]
+        }
+    ]
+};
+        chart_8dde4f7f336049c28ea6ae5a2cc07dc0.setOption(option_8dde4f7f336049c28ea6ae5a2cc07dc0);
+    </script>
+<br/>                <div id="a9e66d76f2c44a8b997503323c1287a9" class="chart-container" style="position: absolute; width: 317px; height: 294px; top: 1253px; left: 1083px;"></div>
+    <script>
+        var chart_a9e66d76f2c44a8b997503323c1287a9 = echarts.init(
+            document.getElementById('a9e66d76f2c44a8b997503323c1287a9'), 'white', {renderer: 'canvas'});
+        var option_a9e66d76f2c44a8b997503323c1287a9 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Barons Per Match",
+                        "value": 0.87
+                    },
+                    {
+                        "name": "Sum of Barons per match of the top ten teams",
+                        "value": 7.42
+                    }
+                ],
+                "radius": [
+                    75,
+                    90
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "center",
+                    "margin": 8,
+                    "formatter":     function(params) {        if(params.name == 'Barons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Barons Per Match",
+                        "Sum of Barons per match of the top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Barons Per Match",
+                            "value": 0.99
+                        },
+                        {
+                            "name": "Sum of Barons per match of the top ten teams",
+                            "value": 7.86
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Barons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   FPX \n The Most Barons Per Match"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "orangered",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Barons Per Match",
+                        "Sum of Barons per match of the top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Barons Per Match",
+                            "value": 0.83
+                        },
+                        {
+                            "name": "Sum of Barons per match of the top ten teams",
+                            "value": 6.94
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Barons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   JDG \n The Most Barons Per Match"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "orangered",
+                "silver"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Barons Per Match",
+                        "Sum of Barons per match of the top ten teams"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Barons Per Match",
+                            "value": 0.87
+                        },
+                        {
+                            "name": "Sum of Barons per match of the top ten teams",
+                            "value": 7.42
+                        }
+                    ],
+                    "radius": [
+                        75,
+                        90
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "center",
+                        "margin": 8,
+                        "formatter":     function(params) {        if(params.name == 'Barons Per Match')            return params.name + ' : ' + params.value;        return ''    }    
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": [
+                        "   EDG \n The Most Barons Per Match"
+                    ],
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "color": "black"
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "orangered",
+                "silver"
+            ]
+        }
+    ]
+};
+        chart_a9e66d76f2c44a8b997503323c1287a9.setOption(option_a9e66d76f2c44a8b997503323c1287a9);
+    </script>
+<br/>                <div id="be36eae3e55443888c586c3b504fa7e7" class="chart-container" style="position: absolute; width: 1060px; height: 537px; top: 647px; left: 137px;"></div>
+    <script>
+        var chart_be36eae3e55443888c586c3b504fa7e7 = echarts.init(
+            document.getElementById('be36eae3e55443888c586c3b504fa7e7'), 'white', {renderer: 'canvas'});
+        var option_be36eae3e55443888c586c3b504fa7e7 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "pie",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "TES369",
+                        "value": 8
+                    },
+                    {
+                        "name": "V5Weiwei",
+                        "value": 7
+                    },
+                    {
+                        "name": "EDGScout",
+                        "value": 6
+                    },
+                    {
+                        "name": "FPXLwx",
+                        "value": 6
+                    },
+                    {
+                        "name": "RNGWei",
+                        "value": 6
+                    }
+                ],
+                "radius": [
+                    "30%",
+                    "75%"
+                ],
+                "center": [
+                    "50%",
+                    "50%"
+                ],
+                "roseType": "area",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "TESKnight9",
+                        "TOPKnight9",
+                        "FPXTian",
+                        "BLGMeteor",
+                        "RNGXiaohu"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "TESKnight9",
+                            "value": 15
+                        },
+                        {
+                            "name": "TOPKnight9",
+                            "value": 13
+                        },
+                        {
+                            "name": "FPXTian",
+                            "value": 9
+                        },
+                        {
+                            "name": "BLGMeteor",
+                            "value": 9
+                        },
+                        {
+                            "name": "RNGXiaohu",
+                            "value": 9
+                        }
+                    ],
+                    "radius": [
+                        "30%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "roseType": "area",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "The Players of Top 5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "TESknight",
+                        "JDGKanavi",
+                        "LGDxiye",
+                        "FPXDoinb",
+                        "WEJiumeng"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "TESknight",
+                            "value": 13
+                        },
+                        {
+                            "name": "JDGKanavi",
+                            "value": 12
+                        },
+                        {
+                            "name": "LGDxiye",
+                            "value": 12
+                        },
+                        {
+                            "name": "FPXDoinb",
+                            "value": 11
+                        },
+                        {
+                            "name": "WEJiumeng",
+                            "value": 10
+                        }
+                    ],
+                    "radius": [
+                        "30%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "roseType": "area",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "The Players of Top 5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "TES369",
+                        "V5Weiwei",
+                        "EDGScout",
+                        "FPXLwx",
+                        "RNGWei"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "TES369",
+                            "value": 8
+                        },
+                        {
+                            "name": "V5Weiwei",
+                            "value": 7
+                        },
+                        {
+                            "name": "EDGScout",
+                            "value": 6
+                        },
+                        {
+                            "name": "FPXLwx",
+                            "value": 6
+                        },
+                        {
+                            "name": "RNGWei",
+                            "value": 6
+                        }
+                    ],
+                    "radius": [
+                        "30%",
+                        "75%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "roseType": "area",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "The Players of Top 5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_be36eae3e55443888c586c3b504fa7e7.setOption(option_be36eae3e55443888c586c3b504fa7e7);
+    </script>
+<br/>                <div id="4cb70265ecb84409bb9b9a0051f650cd" class="chart-container" style="position: absolute; width: 868px; height: 500px; top: 83px; left: 896px;"></div>
+    <script>
+        var chart_4cb70265ecb84409bb9b9a0051f650cd = echarts.init(
+            document.getElementById('4cb70265ecb84409bb9b9a0051f650cd'), 'white', {renderer: 'canvas'});
+        var option_4cb70265ecb84409bb9b9a0051f650cd = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "bar",
+                "name": "Gold Difference in 15 minutes",
+                "legendHoverLink": true,
+                "data": [
+                    -2700,
+                    -1921,
+                    -1755,
+                    -1608,
+                    -1234,
+                    -937,
+                    -765,
+                    -246,
+                    -211,
+                    -136,
+                    -82,
+                    121,
+                    447,
+                    631,
+                    818,
+                    1241,
+                    2667
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "itemStyle": {
+                    "normal": {
+                        "barBorderRadius": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    }
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2019",
+                "2020",
+                "2021"
+            ]
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    "LNG",
+                    "LGD",
+                    "OMG",
+                    "RW",
+                    "TTG",
+                    "eStar",
+                    "BLG",
+                    "EDG",
+                    "WE",
+                    "RA",
+                    "VF",
+                    "RNG",
+                    "JDG",
+                    "SN",
+                    "FPX",
+                    "IG",
+                    "TE"
+                ]
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Gold Difference in 15 minutes"
+                    ],
+                    "selected": {
+                        "Gold Difference in 15 minutes": true
+                    }
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Gold Difference in 15 minutes",
+                    "legendHoverLink": true,
+                    "data": [
+                        -1812,
+                        -1305,
+                        -1045,
+                        -778,
+                        -750,
+                        -541,
+                        -507,
+                        -295,
+                        -204,
+                        -43,
+                        -11,
+                        -9,
+                        22,
+                        110,
+                        227,
+                        520,
+                        561,
+                        749,
+                        971
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "OMG",
+                        "Snake",
+                        "RW",
+                        "VF",
+                        "SN",
+                        "DMO",
+                        "LGD",
+                        "VG",
+                        "JDG",
+                        "BLG",
+                        "TG",
+                        "LNG",
+                        "EDG",
+                        "TE",
+                        "IG",
+                        "SDG",
+                        "WE",
+                        "RNG",
+                        "FPX"
+                    ]
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Gold Difference in 15 minutes"
+                    ],
+                    "selected": {
+                        "Gold Difference in 15 minutes": true
+                    }
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Gold Difference in 15 minutes",
+                    "legendHoverLink": true,
+                    "data": [
+                        -1258,
+                        -796,
+                        -748,
+                        -662,
+                        -649,
+                        -481,
+                        -172,
+                        -126,
+                        25,
+                        28,
+                        67,
+                        97,
+                        150,
+                        308,
+                        347,
+                        544,
+                        726
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "RW",
+                        "IG",
+                        "DMO",
+                        "VF",
+                        "LNG",
+                        "OMG",
+                        "VG",
+                        "WE",
+                        "LGD",
+                        "BLG",
+                        "SN",
+                        "FPX",
+                        "eStar",
+                        "EDG",
+                        "RNG",
+                        "JDG",
+                        "TE"
+                    ]
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Gold Difference in 15 minutes"
+                    ],
+                    "selected": {
+                        "Gold Difference in 15 minutes": true
+                    }
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Gold Difference in 15 minutes",
+                    "legendHoverLink": true,
+                    "data": [
+                        -2700,
+                        -1921,
+                        -1755,
+                        -1608,
+                        -1234,
+                        -937,
+                        -765,
+                        -246,
+                        -211,
+                        -136,
+                        -82,
+                        121,
+                        447,
+                        631,
+                        818,
+                        1241,
+                        2667
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {
+                            "barBorderRadius": [
+                                30,
+                                30,
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "LNG",
+                        "LGD",
+                        "OMG",
+                        "RW",
+                        "TTG",
+                        "eStar",
+                        "BLG",
+                        "EDG",
+                        "WE",
+                        "RA",
+                        "VF",
+                        "RNG",
+                        "JDG",
+                        "SN",
+                        "FPX",
+                        "IG",
+                        "TE"
+                    ]
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_4cb70265ecb84409bb9b9a0051f650cd.setOption(option_4cb70265ecb84409bb9b9a0051f650cd);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="e3e79ce5057a4799aa0c219aa65c306a" class="chart-container" style="position: absolute; width: 476px; height: 535px; top: 647px; left: 1242px;">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Data of The Most Outstanding Players Each Year</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Players</th>
+            <th>Performance</th>
+            <th>Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2019</td>
+            <td>Lwx</td>
+            <td>The Most Kills</td>
+            <td>Kills:222</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>Crisp</td>
+            <td>The Most Assists</td>
+            <td>Assists:412</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>QiuQiu</td>
+            <td>The Highest KDA</td>
+            <td>KDA:6</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>knight</td>
+            <td>The Most Kills</td>
+            <td>Kills:242</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>Missing</td>
+            <td>The Most Assists</td>
+            <td>Assists:434</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>Jiejie</td>
+            <td>The Highest KDA</td>
+            <td>KDA:6</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>GALA</td>
+            <td>The Most Kills</td>
+            <td>Kills:163</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>Crisp</td>
+            <td>The Most Assists</td>
+            <td>Assists:310</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>fearness</td>
+            <td>The Highest KDA</td>
+            <td>KDA:11</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+            $('#348956d7fb9341c1877543423847f91b').css('border-style', 'dashed').css('border-width', '0px');$("#348956d7fb9341c1877543423847f91b>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#348956d7fb9341c1877543423847f91b'), function() { chart_348956d7fb9341c1877543423847f91b.resize()});
+            $('#fafebef0d420415c8c116f4cf34d02a3').css('border-style', 'dashed').css('border-width', '0px');$("#fafebef0d420415c8c116f4cf34d02a3>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#fafebef0d420415c8c116f4cf34d02a3'), function() { chart_fafebef0d420415c8c116f4cf34d02a3.resize()});
+            $('#7e123cbcf6664d9dac208aff24e98b1b').css('border-style', 'dashed').css('border-width', '0px');$("#7e123cbcf6664d9dac208aff24e98b1b>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#7e123cbcf6664d9dac208aff24e98b1b'), function() { chart_7e123cbcf6664d9dac208aff24e98b1b.resize()});
+            $('#3bf260d70b064dbc96859eaf33a058ba').css('border-style', 'dashed').css('border-width', '0px');$("#3bf260d70b064dbc96859eaf33a058ba>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#3bf260d70b064dbc96859eaf33a058ba'), function() { chart_3bf260d70b064dbc96859eaf33a058ba.resize()});
+            $('#8dde4f7f336049c28ea6ae5a2cc07dc0').css('border-style', 'dashed').css('border-width', '0px');$("#8dde4f7f336049c28ea6ae5a2cc07dc0>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#8dde4f7f336049c28ea6ae5a2cc07dc0'), function() { chart_8dde4f7f336049c28ea6ae5a2cc07dc0.resize()});
+            $('#a9e66d76f2c44a8b997503323c1287a9').css('border-style', 'dashed').css('border-width', '0px');$("#a9e66d76f2c44a8b997503323c1287a9>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#a9e66d76f2c44a8b997503323c1287a9'), function() { chart_a9e66d76f2c44a8b997503323c1287a9.resize()});
+            $('#be36eae3e55443888c586c3b504fa7e7').css('border-style', 'dashed').css('border-width', '0px');$("#be36eae3e55443888c586c3b504fa7e7>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#be36eae3e55443888c586c3b504fa7e7'), function() { chart_be36eae3e55443888c586c3b504fa7e7.resize()});
+            $('#4cb70265ecb84409bb9b9a0051f650cd').css('border-style', 'dashed').css('border-width', '0px');$("#4cb70265ecb84409bb9b9a0051f650cd>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#4cb70265ecb84409bb9b9a0051f650cd'), function() { chart_4cb70265ecb84409bb9b9a0051f650cd.resize()});
+            $('#e3e79ce5057a4799aa0c219aa65c306a').css('border-style', 'dashed').css('border-width', '0px');$("#e3e79ce5057a4799aa0c219aa65c306a>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['348956d7fb9341c1877543423847f91b','fafebef0d420415c8c116f4cf34d02a3','7e123cbcf6664d9dac208aff24e98b1b','3bf260d70b064dbc96859eaf33a058ba','8dde4f7f336049c28ea6ae5a2cc07dc0','a9e66d76f2c44a8b997503323c1287a9','be36eae3e55443888c586c3b504fa7e7','4cb70265ecb84409bb9b9a0051f650cd','e3e79ce5057a4799aa0c219aa65c306a'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
